@@ -1,0 +1,22 @@
+/* * {
+  color: red;
+} */
+
+.g,
+.h {
+  font-size: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  /* border: 2px dotted black; */
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+
+  border-radius: 60px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
