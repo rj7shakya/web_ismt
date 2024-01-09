@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Toggle Box</title>
+    <style>
+      #colorBox {
+        width: 100px;
+        height: 100px;
+        background-color: blue; /* Initial color */
+        /* transition: background-color 0.3s ease; Smooth color transition */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="colorBox"></div>
+    <script>
+      const colorBox = document.getElementById("colorBox");
+
+      colorBox.addEventListener("click", () => {
+        colorBox.style.backgroundColor =
+          colorBox.style.backgroundColor === "blue" ? "red" : "blue";
+      });
+
+      // colorBox.addEventListener("mouseover", () => {
+      //   colorBox.style.backgroundColor = green;
+      // });
+
+      // colorBox.addEventListener("mouseout", () => {
+      //   colorBox.style.backgroundColor = pink;
+      // });
+    </script>
+  </body>
+</html>
