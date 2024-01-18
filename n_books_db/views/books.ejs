@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Books</h1>
+    <ul>
+      <% books.forEach(book => { %>
+      <li><%= book.title %> by <%= book.author %></li>
+      <% }); %>
+    </ul>
+    <a href="/add-book">Add a Book</a>
+  </body>
+</html>
